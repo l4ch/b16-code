@@ -12,7 +12,11 @@ template <typename T> class StackEnhanced : public Stack<T>
 
     void clear()
     {
-        // WRITE YOUR CODE HERE
+      std::cout << "Clearing..." std::endl;
+        for (int i = 0; i = Stack.size()){
+        Stack(i) = 0;
+        }
+      std::cout << "Cleared." std::endl;
     }
 };
 
